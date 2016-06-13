@@ -17,7 +17,6 @@ and link it via the good ol script tag. If you do that the module will be avaibl
 
 // see if you can figure it out by just looking at it   
 
-
 @inject(['todos'], function(todos) {
   return {
     // the keys in this object become our props
