@@ -15,7 +15,9 @@ and link it via the good ol script tag. If you do that the module will be avaibl
 
 ```js
 
-// see if you can figure it out by just looking at it  
+// see if you can figure it out by just looking at it   
+
+
 @inject(['todos'], function(todos) {
   return {
     // the keys in this object become our props
@@ -36,7 +38,7 @@ class Todos extends Component {
 export default Todos
 
 ```
-no decorators avabile? you can always just wrap like so
+no decorators avaible? you can always just wrap like so
 
 ```js 
   export default inject(['todos'], todos => todos.watch())(Todos)
@@ -69,7 +71,8 @@ Voila! becasue you returned a observable by calling ```.watch()``` your ```<Todo
 ```js
 inject(['todos'], todos => {
   return {
-    addTodo: body => todos.store({body: body, created_at: new Date()})
+    // notice that this key here is a function, we call such functions an actions. 
+    addTodo: body => todos.store({body: body, created_at: new Date()}) 
   }
 })
 class TodosForm extends Component {
