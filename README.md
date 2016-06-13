@@ -26,8 +26,7 @@ and link it via the good ol script tag. If you do that the module will be avaibl
 class Todos extends Component {
   render() {
     return (
-      <ul>
-        {/*the <Todo /> is a dumb compoennt, in fact its soo dumb that we will ignore it for this demo*/} 
+      <ul> 
         {this.props.todos.map(t => <Todo key={t.id} {...t} />)} {
       </ul>
     )
