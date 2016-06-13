@@ -11,7 +11,7 @@ npm install --save react-x-horizon
 Or just grab the react-x-horizon.umd.(min?).js from https://github.com/dawidczarnik/react-x-horizon/tree/master/lib 
 and link it via the good ol script tag. If you do that the module will be avaible as ReactXHorizon. 
 
-# Example
+# Tutorial / Example
 
 ```js
 
