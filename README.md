@@ -1,7 +1,7 @@
 # React × Horizon
 Glue react and horizon together with this one simple trick! 
 
-This lets you to get rid of the ```componentDidMount()``` subscription boilerplate you would normally have and allows you to be a bit more expressive with your components. The API is inspired by react-redux. 
+This lets you to get rid of the ```componentDidMount()``` subscription boilerplate you would normally have and allows you to be a bit more expressive with your components. 
 
 :warning: :baby: young pre 1.0 project  (feedback appreciated)
 
