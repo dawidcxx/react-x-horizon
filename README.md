@@ -27,7 +27,7 @@ class Todos extends Component {
   render() {
     return (
       <ul> 
-        {this.props.todos.map(t => <Todo key={t.id} {...t} />)} {
+        {this.props.todos.map(t => <Todo key={t.id} {...t} />)} 
       </ul>
     )
   }
