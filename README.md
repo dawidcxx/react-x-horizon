@@ -3,6 +3,8 @@ Glue react and horizon together with this one simple trick!
 
 This lets you to get rid of the ```componentDidMount()``` subscription boilerplate you would normally have and allows you to be a bit more expressive with your components. The API is inspired by redux's ```<Provider />``` and ```connect()``` (we call it ```inject()```) pattern. 
 
+:warning: Under development! (feedback appreciated)
+
 # Installation
 
 ```
