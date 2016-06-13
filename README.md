@@ -15,6 +15,8 @@ and link it via the good ol script tag. If you do that the module will be avaibl
 
 # Tutorial / Example
 
+tldr: (https://github.com/dawidczarnik/react-x-horizon-demo)
+
 ```js
 
 // see if you can figure it out by just looking at it   
