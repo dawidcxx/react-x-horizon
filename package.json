@@ -1,6 +1,6 @@
 {
   "name": "react-x-horizon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "glue react and horizon together with this one simple trick!",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "realtime",
     "bindings"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dawidczarnik/react-x-horizon"
+  },
   "author": "Dawid Czarnik",
   "license": "MIT",
   "devDependencies": {

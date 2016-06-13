@@ -1,1 +1,1 @@
-module.exports = require('./lib/react-x-horizon.js')
+module.exports = require('./lib/react-x-horizon.umd.js')
