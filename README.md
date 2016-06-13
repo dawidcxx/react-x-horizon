@@ -18,7 +18,7 @@ Wrap the scope of your real time application(usually the whole app) and provide 
 
 #### props: 
 
-***hz*** - the horizon instance
+***hz*** - The horizon instance
 
 
 ### `inject([...collectionNames], mapColsToProps(...collections, ownProps))`
@@ -27,5 +27,5 @@ Wrap the scope of your real time application(usually the whole app) and provide 
   
 ***collectionNames (array\<string\>)*** - The collection names to grab. Those will be transformed into collections and passed to your mapperFn.
 
-***mapColsToProps (...collections, ownProps) → object***  -  Transform the collections into props. Each key will be mapped to a prop, however if the key holds an observable, we will subscribe for you and inject the result and not then the observable itself.
+***mapColsToProps (...collections, ownProps) → object*** - Transform the collections into props. Each key will be mapped to a prop, however if the key holds an observable, we will subscribe for you and inject the result and not then the observable itself.
 
